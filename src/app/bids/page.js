@@ -1,4 +1,4 @@
 const Bids = () => {
-  return <div>BIDS</div>;
+  return <div className="flex justify-center items-center">BIDS PAGE</div>;
 };
 export default Bids;

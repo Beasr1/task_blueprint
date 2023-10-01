@@ -1,4 +1,4 @@
 const Loans = () => {
-  return <div>LOANS</div>;
+  return <div className="flex justify-center items-center">LOANS PAGE</div>;
 };
 export default Loans;
