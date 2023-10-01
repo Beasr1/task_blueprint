@@ -9,7 +9,7 @@ const Profile = () => {
         />
       </div>
       <div className="flex-col gap-8">
-        <div title="BoredApeYachtClub">BoredApeYachtClub</div>
+        <div>BoredApeYachtClub</div>
         <div className="flex justify-center items-center gap-4 ">
           <div>
             <svg

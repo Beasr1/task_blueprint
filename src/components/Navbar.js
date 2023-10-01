@@ -14,7 +14,7 @@ const Navbar = () => {
         border-b-[rgb(48,48,48)] border-b border-solid"
     >
       <div className="container mx-auto">
-        <div className=" w-full h-[62px] flex z-[1] items-center justify-between mx-auto my-0 px-6 ">
+        <div className=" w-full h-[32px] flex z-[1] items-center justify-between mx-auto my-0 px-6 ">
           <div className="items-center justify-between">
             <ul className="flex items-center justify-center space-x-4 text-xs text-[rgb(146,146,146)] font-bold">
               <li>
