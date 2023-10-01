@@ -1,45 +1,18 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+import Sidebar2 from "./Sidebar2";
 
-const Dashboard = () => {
+const Dashboard = ({ children }) => {
   return (
-    <div className="bg-gray-200 min-h-screen">
-      <div className="flex">
-        {/* Sidebar */}
-        <div className="bg-blue-500 text-white w-64 p-4">
-          <h2 className="text-2xl font-semibold">Dashboard</h2>
-          <ul className="mt-4">
-            <li className="mb-2">
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white hover:bg-blue-600 px-2 py-1 rounded block"
-              >
-                Dashboard Home
-              </a>
-            </li>
-            <li className="mb-2">
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white hover:bg-blue-600 px-2 py-1 rounded block"
-              >
-                Reports
-              </a>
-            </li>
-            <li className="mb-2">
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white hover:bg-blue-600 px-2 py-1 rounded block"
-              >
-                Users
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        {/* Main Content */}
-        <div className="flex-1 p-4">
-          <h2 className="text-2xl font-semibold">Dashboard Home</h2>
-          {/* Your dashboard content goes here */}
-        </div>
+    <div className="flex w-full">
+      <div className="w-1/5">
+        {/* Adjust the width the first sidebar */}
+        <Sidebar />
+      </div>
+      <div className="w-3/5">{children}</div>
+      <div className="w-1/5">
+        {/* Adjust the width  second sidebar */}
+        <Sidebar2 />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sidebar = () => {
+const Sidebar2 = () => {
   return (
     <div className="flex h-full font-ProtoMono ">
       <div className="hidden md:flex flex-col gap-y-2  h-full w-300 p-2">
@@ -13,4 +13,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sidebar2;
