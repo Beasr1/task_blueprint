@@ -5,7 +5,7 @@ const Profile = () => {
         <img
           alt="BoredApeYachtClub"
           src="https://images.blur.io/_blur-prod/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/8321-69a4c46a6e8e5b07?w=128"
-          className="opacity-1 rounded-full h-[50px] w-[50px] "
+          className="opacity-1 rounded-full max-h-[50px] max-w-[50px] "
         />
       </div>
       <div className="flex-col gap-8">

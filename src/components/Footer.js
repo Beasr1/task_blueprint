@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className=" bg-background_color absolute  w-full h-[10px] border-t-[rgb(48,48,48)] border-t border-solid">
-      <div className="container mx-auto px-6 pt-10 pb-6 flex gap-5">
-        <div className=" text-green-500">Live Data Tracking</div>
+      <div className="container mx-auto px-2 pt-2 pb-2 flex gap-5">
+        <div className=" text-[#ade25d]">Live Data Tracking</div>
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

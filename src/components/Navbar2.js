@@ -23,14 +23,14 @@ const Navbar2 = () => {
       <div className="container mx-auto">
         <div className=" w-full h-[62px] flex z-[1] items-center justify-between mx-auto my-0 px-6 ">
           <div className="items-center justify-between h-full">
-            <ul className="flex items-center justify-center space-x-4 text-xs text-[rgb(146,146,146)] font-bold">
-              <li>
+            <ul className="flex gap-4 items-center justify-center space-x-4 text-xs text-[rgb(146,146,146)] font-bold">
+              <li className="flex gap-2">
                 <a href="/" className="text-white text-xl font-semibold h-full">
                   {/* My Website profile */}
                   <Profile />
                 </a>
-              </li>
-              <li>
+                {/* </li>
+              <li> */}
                 <button onClick={handleClick}>
                   {favorite ? (
                     <div>
